@@ -6,7 +6,7 @@ Created on Fri Jan  4 21:29:25 2019
 """
 
 import pygame
-#import random
+import random
  
 # creating the data structure for pieces
 # setting up global vars
@@ -173,7 +173,7 @@ def check_lost(positions):
     pass
  
 def get_shape():
-    pass
+    return random.choice(shapes) 
  
  
 def draw_text_middle(text, size, color, surface):
